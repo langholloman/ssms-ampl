@@ -1,0 +1,602 @@
+[
+  {
+    "role": "pmo",
+    "resource": "Organization",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Organization",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Organization",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "Organization",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "pmo",
+    "resource": "Organization",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Organization",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Organization",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "Organization",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "pmo",
+    "resource": "Organization",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Organization",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Organization",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "Organization",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "pmo",
+    "resource": "Organization",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Organization",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Organization",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "Organization",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "pmo",
+    "resource": "Organization",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Organization",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Organization",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "Organization",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "pmo",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "pmo",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "pmo",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "pmo",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "pmo",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "pmo",
+    "resource": "School",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "School",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "School",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "School",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "pmo",
+    "resource": "School",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "School",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "School",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "School",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "pmo",
+    "resource": "School",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "School",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "School",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "School",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "pmo",
+    "resource": "School",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "School",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "School",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "School",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "pmo",
+    "resource": "School",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "School",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "School",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "School",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "pmo",
+    "resource": "Student",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Student",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Student",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "Student",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "pmo",
+    "resource": "Student",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Student",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Student",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "Student",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "pmo",
+    "resource": "Student",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Student",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Student",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "Student",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "pmo",
+    "resource": "Student",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Student",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Student",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "Student",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "pmo",
+    "resource": "Student",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Student",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Student",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "Student",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "pmo",
+    "resource": "Class",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Class",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Class",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "Class",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "pmo",
+    "resource": "Class",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Class",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Class",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "Class",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "pmo",
+    "resource": "Class",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Class",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Class",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "Class",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "pmo",
+    "resource": "Class",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Class",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Class",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "Class",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "pmo",
+    "resource": "Class",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Class",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Class",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "Class",
+    "action": "read:any",
+    "attributes": "*"
+  }
+]
