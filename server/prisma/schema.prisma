@@ -1,0 +1,75 @@
+datasource postgres {
+  provider = "postgresql"
+  url      = env("POSTGRESQL_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Organization {
+  createdAt        DateTime @default(now())
+  id               String   @id @default(cuid())
+  organizationName String?
+  updatedAt        DateTime @updatedAt
+  users            User[]
+}
+
+model User {
+  classes        Class[]
+  createdAt      DateTime      @default(now())
+  emailAddress   String?
+  firstName      String?
+  id             String        @id @default(cuid())
+  lastName       String?
+  organization   Organization? @relation(fields: [organizationId])
+  organizationId String?
+  password       String
+  roles          String[]
+  school         School?       @relation(fields: [schoolId])
+  schoolId       String?
+  updatedAt      DateTime      @updatedAt
+  username       String        @unique
+}
+
+model School {
+  createdAt  DateTime @default(now())
+  id         String   @id @default(cuid())
+  schoolName String?
+  student    Student? @relation(fields: [studentId])
+  studentId  String?
+  updatedAt  DateTime @updatedAt
+  users      User[]
+}
+
+model Student {
+  classes   Class[]
+  createdAt DateTime @default(now())
+  firstName String
+  id        String   @id @default(cuid())
+  lastName  String
+  schools   School[]
+  updatedAt DateTime @updatedAt
+  username  String
+}
+
+model Class {
+  className       String
+  createdAt       DateTime       @default(now())
+  id              String         @id @default(cuid())
+  student         Student[]
+  trainingTrack   TrainingTrack? @relation(fields: [trainingTrackId])
+  trainingTrackId String?
+  updatedAt       DateTime       @updatedAt
+  user            User[]
+}
+
+model TrainingTrack {
+  addDays           String?
+  classes           Class[]
+  createdAt         DateTime @default(now())
+  dayCount          String?
+  id                String   @id @default(cuid())
+  trainingTrackName String?
+  updatedAt         DateTime @updatedAt
+}
